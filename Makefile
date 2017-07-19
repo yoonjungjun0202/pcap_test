@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = pcap_test
-OBJECTS = pcap_test.c
+OBJECTS = pcap_test.c my_pcap.c
 LIBS = -lpcap
 
 all : $(TARGET)
